@@ -42,7 +42,7 @@ seed_examples:
       Streamline support with data center support consolidation to reduce time spent managing contracts and vendors.
       Leverage IT services to let IBM manage your day-to-day data center needs.
 document:
-  repo: https://github.com/watsonx-challenge/itls.git
-  commit: e1744af
+  repo: https://github.com/sasadangelo/watsonx-challenge.git
+  commit: 7ede461
   patterns:
     - itls.md
