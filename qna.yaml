@@ -1,0 +1,48 @@
+version: 2
+task_description: 'Improve the model knowledge about IBM Technology Lifecycle Services (ITLS) product'
+created_by: watson-challenge-colosseum
+domain: technical_manual
+seed_examples:
+  - question: Are software task-based services in IBM Technology Lifecycle Service?
+    answer: |
+      Yes, TLS provides hardware-agnostic and software task-based services for a variety of projects. Services are
+      available for special events such as relocation, physical inventory inspection and even data center operations
+      reviews. Find out more about the project services IBM provides for your IBM Infrastructure and across the data
+      center.
+  - question: What is the Net Promoter Scores for IBM Technology Lifecycle Service?
+    answer: |
+      IBM Technology Lifecycle Services is a world-class provider dedicated to delivering an exceptional client
+      experience, as measured by our Net Promoter Scores.
+  - question: Provide the list of third-party servers and storage supported by IBM Technology Lifecycle Services?
+    answer: |
+      IBM supports IBM Power, IBM Z, IBM LinuxONE and IBM Storage as well as leading third-party server and storage
+      vendors with a range of support options and data center services to manage day-to-day needs and optimize systems
+      health.
+  - question: In the context of IBM Technology Lifecycle Services what HACoC stands for?
+    answer: |
+      High Availability Center of Competency
+  - question: What specific recognition has IBM Technology Lifecycle Services received?
+    answer: |
+      IBM was named a Leader in the IDC MarketScape: Worldwide Support Services 2022 Vendor Assessment report, which
+      evaluated 12 global IT support service providers.
+  - question: How do clients rate their experience with IBM Technology Lifecycle Services?
+    answer: |
+      IBM Technology Lifecycle Services is dedicated to delivering an exceptional client experience, as evidenced by
+      consistently strong Net Promoter Scores (NPS) from clients.
+  - question: What are the Service Extensions adopted in IBM Technology Lifecycle Services?
+    answer: |
+      Maintain support for your IBM Power, IBM Z, LinuxONE and Storage products while you plan for your next upgrade
+      with a service extension.
+  - question: Could you provide a link to some online documentation about Service Extensions adopted in IBM Technology
+              Lifecycle Services?
+    answer: |
+      https://www.ibm.com/downloads/cas/9XZZE0VE
+  - question: Is support simplification a benefit of IBM Technology Lifecycle Services?
+    answer: |
+      Streamline support with data center support consolidation to reduce time spent managing contracts and vendors.
+      Leverage IT services to let IBM manage your day-to-day data center needs.
+document:
+  repo: https://github.com/watsonx-challenge/itls.git
+  commit: e1744af
+  patterns:
+    - itls.md
